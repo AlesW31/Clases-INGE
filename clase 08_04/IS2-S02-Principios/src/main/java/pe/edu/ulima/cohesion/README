@@ -1,0 +1,9 @@
+Baja Cohesión:
+
+La clase Biblioteca tiene múltiples responsabilidades: gestionar libros y también imprimir un resumen. 
+Esto hace que la clase sea más difícil de entender y mantener.
+
+Alto Acoplamiento:
+
+La lógica de impresión está acoplada a la lógica de gestión de libros. 
+Si quisiéramos cambiar la forma en que se imprimen los libros, tendríamos que modificar la clase Biblioteca
